@@ -118,16 +118,13 @@ train_features = enc.transform(train_features).toarray()
 
 """
 Check the accuracy
-NA = 0
-kickoff = 1
-pass = 2
-run = 3
-punt = 4
-field_goal = 5
-no_play = 6
-extra_point = 7
-qb_spike = 8
-qb_kneel = 9
+LC = 0
+PU Unlisted = 1
+NU PUBL = 2
+RU NUBL = 3
+UU RUBL = 4
+OU UUBL = 5
+Uber = 6
 """
 
 #title = "Learning Curves (Multilayered Peceptron Classifier)"
